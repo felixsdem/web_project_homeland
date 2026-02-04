@@ -23,3 +23,32 @@
   font-size: 16px;
   line-height: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__text,
+  .intro__author {
+    line-height: 24px;
+  }
+}
