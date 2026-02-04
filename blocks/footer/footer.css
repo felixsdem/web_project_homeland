@@ -8,12 +8,4 @@
   margin: 0;
   font-size: 14px;
   line-height: 16px;
-  color: #ffffff;
-}
-
-@media screen and (max-width: 544px) {
-  .footer {
-    margin-top: 64px;
-    padding: 0 16px 24px;
-  }
 }
