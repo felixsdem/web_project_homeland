@@ -1,0 +1,10 @@
+.header {
+  padding-top: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  width: 254px;
+  height: 70px;
+}

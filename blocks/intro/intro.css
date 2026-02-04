@@ -1,0 +1,57 @@
+.intro {
+  max-width: 984px;
+  margin: 92px auto 0;
+  padding: 0 48px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0 0 10px;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.intro__author {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__text {
+    line-height: 24px;
+  }
+
+  .intro__author {
+    line-height: 24px;
+  }
+}
